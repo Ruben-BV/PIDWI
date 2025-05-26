@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos HTML-CSS-JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_index.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Recursos de <span class="orange">HTML</span>, <span class="blue">CSS</span> y <span class="yellow">JS</span></h1>
+            <button id="hamburger" class="hamburger"><img src="assets/burger.svg" alt="Hamburger menu icon"></button>
+            <nav id="nav">
+                <button id="exit" class="exit"><img src="assets/exit.svg" alt="Menu Exit"></button>
+                <ul class="menu">
+                    <li><a href="index.html" class="menu-button underlined-orange">Inicio</a></li>
+                    <div id="dropdownContainer" class="dropdown-container">
+                        <li class="dropdown-button"><a href="recursos.html" class="menu-button">Recursos</a></li>
+                        <div id="dropdown" class="dropdown hidden">
+                            <a href="recursos/recursos-html.html" class="dropdown-button-html">HTML</a>
+                            <a href="recursos/recursos-css.html" class="dropdown-button-css">CSS</a>
+                            <a href="recursos/recursos-js.html" class="dropdown-button-js">JavaScript</a>
+                        </div>
+                    </div>
+                    <li><a href="contacto.html" class="menu-button">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="introduction">
+                <h2>Inicio</h2>
+                <article>
+                    <p>Esta página web tiene como objetivo ofrecer diversos recursos de los tres lenguajes fundamentales que forman la base de cualquier sitio web moderno: HTML, CSS y JavaScript.</p>
+                    <p>HTML (HyperText Markup Language) es el lenguaje de marcado que estructura el contenido en la web. Gracias a él, podemos definir encabezados, párrafos, listas, imágenes, enlaces y mucho más. Es, por así decirlo, el esqueleto de toda página web.</p>
+                    <p>CSS (Cascading Style Sheets): se encarga del diseño visual. Permite aplicar estilos al contenido estructurado con HTML: colores, fuentes, adaptabilidad a distintos dispositivos, etc.</p>
+                    <p>JavaScript: aporta dinamismo e interactividad. Con él, una página deja de ser estática y puede responder a acciones del usuario, validar formularios o mostrar animaciones, entre otros.</p>
+                </article>
+            </section>
+            <section class="carousel">
+                <a href="recursos/recursos-html.html">
+                    <div id="slide01" class="slide slide-visible">
+                        <img src="assets/HTML5_logo_black.svg" alt="Logotipo de HTML">
+                        <h3>Recursos de HTML</h3>
+                    </div>
+                </a>
+                <a href="recursos/recursos-css.html">
+                    <div id="slide02" class="slide slide-hidden">
+                        <img src="assets/CSS3_logo_and_wordmark.svg" alt="Logotipo de CSS">
+                        <h3>Recursos de CSS</h3>
+                    </div>
+                </a>
+                <a href="recursos/recursos-js.html">
+                    <div id="slide03" class="slide slide-hidden">
+                        <img src="assets/Unofficial_JavaScript_logo_2.svg" alt="Logotipo de JS">
+                        <h3>Recursos de JavaScript</h3>
+                    </div>
+                </a>
+                <hr class="hr-carousel">
+                <div class="carousel-nav">
+                    <button id="prev"><img src="assets/arrow_prev.svg" alt="Flecha diapositiva previa"></button>
+                    <ul class="dots">
+                        <li class="dotA active-slide"></li>
+                        <li class="dotB"></li>
+                        <li class="dotC"></li>
+                    </ul>
+                    <button id="next"><img src="assets/arrow_next.svg" alt="Flecha diapositiva siguiente"></button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>LMSGI - Entregable 04 - R. Blanco</p>
+        <div class="attributions">
+            <p>Imágenes usadas bajo licencia o marca registrada:</p>
+            <p>Logotipo de HTML: <a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_black.svg" target="_blank">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+            <p>Logotipo de CSS: <a href="https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg" target="_blank">Rudloff</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+            <p>Logotipo de JS: <a href="https://commons.wikimedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg" target="_blank">Christopher Williams</a>, Public domain, via Wikimedia Commons - Cambios: esquinas redondeadas</p>
+        </div>
+        </p>
+        
+    </footer>
+    <script src="js/carousel.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+</html>

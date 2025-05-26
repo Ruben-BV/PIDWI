@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles_recursos.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Recursos de <span class="orange">HTML</span>, <span class="blue">CSS</span> y <span class="yellow">JS</span></h1>
+            <button id="hamburger" class="hamburger"><img src="../assets/burger.svg" alt="Hamburger menu icon"></button>
+            <nav id="nav">
+                <button id="exit" class="exit"><img src="../assets/exit.svg" alt="Menu Exit"></button>
+                <ul class="menu">
+                    <li><a href="../index.html" class="menu-button">Inicio</a></li>
+                    <div id="dropdownContainer" class="dropdown-container">
+                        <li class="dropdown-button menu-button underlined-orange"><a href="../recursos.html" class="menu-button">Recursos</a></li>
+                        <div id="dropdown" class="dropdown hidden">
+                            <a href="recursos/recursos-html.html" class="dropdown-button-html">HTML</a>
+                            <a href="recursos/recursos-css.html" class="dropdown-button-css">CSS</a>
+                            <a href="recursos/recursos-js.html" class="dropdown-button-js">JavaScript</a>
+                        </div>
+                    </div>
+                    <li><a href="../contacto.html" class="menu-button">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="main-container">
+            <h2>Recursos de JavaScript</h2>
+            <section>
+                <h3>Enlaces a video-tutoriales en la red</h3>
+                <article>
+                    <p>Curso de JS en el canal de YouTube: MoureDev</p>
+                    <a href="https://www.youtube.com/watch?v=iJvLAZ8MJ2E&t=20326s" target="_blank">MoureDev - Curso COMPLETO de JavaScript INTERMEDIO - De Principiante a Pro</a>
+                </article>
+            </section>
+            <section>
+                <h3>Continuará...</h3>
+                <article>
+                    <p>Se agregarán más recursos próximamente...</p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>LMSGI - Entregable 04 - R. Blanco</p>
+        <div class="attributions">
+            <p>Imágenes usadas bajo licencia o marca registrada:</p>
+            <p>Logotipo de HTML: <a href="https://commons.wikimedia.org/wiki/File:HTML5_logo_black.svg" target="_blank">W3C</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+            <p>Logotipo de CSS: <a href="https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg" target="_blank">Rudloff</a>, <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>, via Wikimedia Commons</p>
+            <p>Logotipo de JS: <a href="https://commons.wikimedia.org/wiki/File:Unofficial_JavaScript_logo_2.svg" target="_blank">Christopher Williams</a>, Public domain, via Wikimedia Commons - Cambios: esquinas redondeadas</p>
+        </div>
+        </p>
+        
+    </footer>
+    <script src="../js/dropdown.js"></script>
+    <script src="../js/hamburger.js"></script>
+</body>
+</html>
