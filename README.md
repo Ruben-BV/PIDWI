@@ -29,21 +29,21 @@ El proyecto se enfoca en el desarrollo técnico de la propia web y no en los con
 ## Capturas de pantalla:
 Página de inicio:
 <p align="center">
-	  <img src="" width="75%"/>
+	  <img src="https://github.com/Ruben-BV/PIDWI/blob/main/assets/Screenshot001.jpg" width="75%"/>
 </p>
 Galería para selección del tema de los recursos, con menú de navegación desplegado:
 <p align="center">
-	  <img src="" width="75%"/>
+	  <img src="https://github.com/Ruben-BV/PIDWI/blob/main/assets/Screenshot002.jpg" width="75%"/>
 </p>
 Galería "Recursos" con diseño adapatado a pantalla pequeña:
 <p align="center">
-	  <img src="" width="50%"/>
+	  <img src="https://github.com/Ruben-BV/PIDWI/blob/main/assets/Screenshot003.jpg" width="50%"/>
 </p>
 "Hamburger menu" desplegado:
 <p align="center">
-	  <img src="" width="50%"/>
+	  <img src="https://github.com/Ruben-BV/PIDWI/blob/main/assets/Screenshot004.jpg" width="50%"/>
 </p>
 Formulario de contacto:
 <p align="center">
-	  <img src="" width="75%"/>
+	  <img src="https://github.com/Ruben-BV/PIDWI/blob/main/assets/Screenshot005.jpg" width="50%"/>
 </p>
