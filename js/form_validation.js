@@ -2,14 +2,13 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
     const datos = {
-        contact_person: document.getElementById("contact-person").value,
+        contact_person: document.getElementById("contact-person").value.trim(),
         form_of_address: document.querySelector('input[name="form-of-address"]:checked')?.value || "",
-        age: document.getElementById("age").value,
-        ocupation: document.getElementById("ocupation").value,
-        email: document.getElementById("email").value,
-        subject: document.getElementById("subject").value,
-        message: document.getElementById("message").value
-        
+        age: document.getElementById("age").value || "No especificada",
+        ocupation: document.getElementById("ocupation").value || "No especificada",
+        email: document.getElementById("email").value.trim(),
+        subject: document.getElementById("subject").value.trim(),
+        message: document.getElementById("message").value.trim()
     };
 
     document.getElementById("form-container").style.display = "none";
